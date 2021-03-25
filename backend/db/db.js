@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb+srv://atharva:539712684@cluster0.y6gze.mongodb.net/file_upload', {
+mongoose.connect('localhost:27017/file_upload', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
   useCreateIndex: true
